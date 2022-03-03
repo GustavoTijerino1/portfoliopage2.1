@@ -1,0 +1,18 @@
+h1 {
+	border: 10px solid black;
+    animation:blinkingText .9s infinite;
+	font-size: 100px;
+	text-align: center;
+}
+@keyframes blinkingText{
+	0%{		color: green;	}
+	30%{	color: red;	}
+	50%{	color: blue;	}
+	90%{    color: blueviolet;}	
+	100%{	color: midnightblue;	}
+}
+body {
+    background-color: beige;
+}
+
+

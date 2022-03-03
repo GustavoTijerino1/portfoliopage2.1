@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet"  href="./main.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     
     <title>Best Dev For You</title>
 </head>
 <body>
     <header>
-        <h1>Gustavo Tijerino</h1>
+        <h1 >Gustavo Tijerino</h1>
         <nav>
             <ul>
                 <li> 
@@ -20,7 +20,7 @@
                 </li>
                 
                 <li>
-                    <a href="#me">Learn About Me</a>
+                    <a href="#aboutme">Learn About Me</a>
                     
                 </li>
                 
@@ -38,15 +38,16 @@
 
     </header>
 
-   <figure id="img">
-    <marquee >
-        
-        <h2 id="wel">Welcome!</h2>
-    </marquee>
+    <figure id="img">
+        <marquee scrollamount="12">
+            <p id="wel">Welcome!</p>
+        </marquee>
     </figure>
-   
+
     <main>
-        <section id="me">
+        <div id="me" class="gone"> <p id="hidden">Disclaimer: Thats Not Me.</p> <img src="https://media.istockphoto.com/photos/goat-picture-id855970482?b=1&k=20&m=855970482&s=170667a&w=0&h=y32oZWC1Pspny4S2fE7wEqIx_avOtSKtfbzoub5xcdI=" alt="A picture of me"/> </div>
+   
+        <section id="aboutme" >
            <h2> About me</h2>
 
            <p>
@@ -59,23 +60,28 @@
 
        <section id="work">
            <h2>Projects</h2>
-           <figure id="hell">
-               <p id="hea">Hiiiiii</p>
-               <a href="https://drive.google.com/drive/folders/1VMcLoqy_idpSWzLzZyUqVfUoW2DF01Xq?usp=sharing"target="_blank"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHaqpS9Xq2tvbCjM4IoxuV1E6zYkRZLittYUGSbNIAQz2ghIBxIaTovm-teG70kNgFH68&usqp=CAU"></a>
+           <figure  class="brd" >
+                <p class="abs"> How to Marquee</p>
+                <a href="https://www.tutorialspoint.com/html/html_marquees.htm"target="_blank"> <img src="https://media.istockphoto.com/photos/cyber-security-web-development-and-work-in-it-concept-picture-id1289411982?b=1&k=20&m=1289411982&s=170667a&w=0&h=0R3OXR4L6LOGphYA3sul4bWQwpGj_DSl05ENiP2kRZg=" alt="Picture of Code"></a>
+            </figure>
+
+           <figure  class="brd" >
+               <p class="abs">My Favorite Search Engine</p>
+               <a href="https://www.google.com/"target="_blank"> <img id="small" src="https://media.istockphoto.com/photos/financial-technologies-concept-and-making-money-picture-id1285818383?b=1&k=20&m=1285818383&s=170667a&w=0&h=R0K5lbO25v30lBmFABpFPNPWyi_PAV4CxRQb_lURzvU=" alt="Mysterious themed Picture"></a>
                
            </figure>
-          
-           <figure>
-               <a href="https://www.tutorialspoint.com/html/html_marquees.htm"target="_blank"> <img src="https://media.istockphoto.com/photos/cyber-security-web-development-and-work-in-it-concept-picture-id1289411982?b=1&k=20&m=1289411982&s=170667a&w=0&h=0R3OXR4L6LOGphYA3sul4bWQwpGj_DSl05ENiP2kRZg="></a>
-           </figure>
         </section>
-        <section id="it">
+
+        <section id="rev">
+
             <p>Rate My Portfolio</p>
-        <form>
-            <input type="checkbox" name="question" value="Yes"> <label for="yes"> Yes I loved It!!<label> <br>
-            <input type="checkbox" name="question" value="Yes"> <label for="yes">You Are Hired!!<label> <br><br/>
-            <input type="submit" value="Submit">
-        </form>
+            
+
+            <form action= "./proto.html"target="_blank">
+                <input required type="radio" name="question" value="Yes"> <label for="yes"> I Love It!!</label> <br>
+                <input required type="radio" name="question" value="Yes"> <label for="yes">You Are     Hired!!<label> <br><br/>   
+                <input type="submit" value="Submit">
+            </form>            
         </section>
     </main>
 
@@ -89,8 +95,8 @@
             Contact Me
 
         </h2>
-            <nav>
-             <ul>
+        <nav>
+            <ul>
                 <li>
                     <a href="mailto:marquee@gmail.com"target="_blank">marquee@gmail.com</a>
                 </li>
@@ -105,9 +111,9 @@
 
                 </li>
 
-                
+            
             </ul>
-            </nav>
+        </nav>
 
     
     </footer>
