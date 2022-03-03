@@ -1,7 +1,7 @@
 # portfoliopage2.1
 
 ## Task
-I created a Portfolio by using HTML and CSS. I used proper semantics such as (Main, Header, Nav, Figure,Section and Footer). On my CSS I used various of color for my text and background, I also used flexbox to structure everything on my page. I added padding and margin to give space for my items.
+I created a Portfolio by using HTML and CSS. I used proper semantics such as (Main, Header, Nav, Figure,Section and Footer). On my CSS I used various of color for my text and background, I also used flexbox to structure everything on my page. I added padding and margin to give space for my items. 
 
 ## Resources 
 

@@ -10,6 +10,10 @@
     --blck: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 header {
     padding: 20px;
@@ -167,6 +171,7 @@ footer,footer nav {
 }
 
 @media screen and (max-width:527px){ 
+    img {width: 100%;}
     
     
 }

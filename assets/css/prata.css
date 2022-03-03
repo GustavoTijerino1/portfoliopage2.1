@@ -3,6 +3,7 @@ h1 {
     animation:blinkingText .9s infinite;
 	font-size: 100px;
 	text-align: center;
+	background-color: aqua;
 }
 @keyframes blinkingText{
 	0%{		color: green;	}
@@ -12,7 +13,10 @@ h1 {
 	100%{	color: midnightblue;	}
 }
 body {
-    background-color: beige;
+    background-color: #363635;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
 }
 
 
