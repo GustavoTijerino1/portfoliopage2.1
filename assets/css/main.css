@@ -172,6 +172,7 @@ footer,footer nav {
 
 @media screen and (max-width:527px){ 
     img {width: 100%;}
-    
+    #hidden {visibility: hidden;}
+    .gone:hover {pointer-events: none;}
     
 }
