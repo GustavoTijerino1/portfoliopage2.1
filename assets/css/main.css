@@ -1,3 +1,4 @@
+/* Universal Code */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,8 +14,7 @@
 html {
     scroll-behavior: smooth;
 }
-
-
+/* Sets position, font and color of the Header */
 header {
     padding: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -44,7 +44,7 @@ li , li a {
 li a:hover {
     color: var(--words);
 }
-
+/* Sets Marquee stylign */
 #wel {
     font-family:'Times New Roman', Times, serif;
     font-weight: bolder;
@@ -53,12 +53,12 @@ li a:hover {
     color:rgb(202, 255, 255);
 }
 
-header h1, main h2 , footer h2{
+header h1, main h2 , footer h3{
     font-size: xx-large;
     text-align: center;
     font-weight: bolder;
 }
-
+/* Sets Background-Image */
 #img {
     background-size: cover;
     background-position: center;
@@ -68,7 +68,7 @@ header h1, main h2 , footer h2{
 }
 
 #me {
-
+    
     display: flex;
     flex-flow: row nowrap;
     margin-top: 5px;
@@ -77,7 +77,7 @@ header h1, main h2 , footer h2{
 div img{
     border: 10px solid var(--blck);
 }
-
+/* Sets Hover Affects */
 .gone #hidden {
     display: none;
 }
@@ -94,7 +94,7 @@ div img{
 main{
     cursor: pointer;
 }
-
+/* Sets Cursor Affects */
 main:active {
     cursor: grabbing;
     cursor: -moz-grabbing;
@@ -110,6 +110,7 @@ section h2 {
     text-decoration: underline;
     text-decoration-color: var(--blck);
 }
+/* Sets Flexbox for Section */
 section {
     flex: 0 0 200px;
     border: 5px solid var(--blck);
@@ -130,7 +131,7 @@ section figure a img {
     width: 100%;
     height: 200px; ;
  }
-
+/* Sets Label on Pictures */
 .brd  {
     position: relative;
 }
@@ -141,7 +142,7 @@ section figure a img {
     padding: 5px;
     background-color: var(--blck);
 }
-
+/* This is for the Rating Box */
 #rev {
     display: flex;
     flex-flow: column wrap;
@@ -157,7 +158,7 @@ section figure a img {
     text-decoration: underline var(--blck);
     margin-bottom: 10px;
 }
-
+/* Contains the content within Footer */
 footer {
     display: flex;
     flex-flow: column nowrap;
@@ -169,7 +170,7 @@ footer,footer nav {
     text-align: center;
     color: var(--words);
 }
-
+/* This resizes for various screens. */
 @media screen and (max-width:527px){ 
     img {width: 100%;}
     #me {flex-flow: column wrap;}
