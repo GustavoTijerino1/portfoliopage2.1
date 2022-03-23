@@ -176,3 +176,13 @@ footer,footer nav {
     #me {flex-flow: column wrap;}
     .gone:hover{pointer-events:none;}
 }
+
+
+#picBox {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px;
+}
+.row {
+    margin: 5px;
+}
