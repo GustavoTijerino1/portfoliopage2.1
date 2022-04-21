@@ -7,9 +7,9 @@ h1 {
 }
 @keyframes blinkingText{
 	0%{		color: green;	}
-	30%{	color: red;	}
+	25%{	color: red;	}
 	50%{	color: blue;	}
-	90%{    color: blueviolet;}	
+	75%{    color: blueviolet;}	
 	100%{	color: midnightblue;	}
 }
 body {

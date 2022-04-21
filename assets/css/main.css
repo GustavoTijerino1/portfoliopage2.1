@@ -133,7 +133,17 @@ section figure a img {
  }
 /* Sets Label on Pictures */
 .brd  {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 0% 20%;
+
+  
+}
+
+#shrink{
+    max-width: 100%;
 }
 
 .abs {
